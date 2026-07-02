@@ -8,7 +8,7 @@
 
 > ## **No signup. No installation. Free.**
 >
-> 🌐 **Open in Browser** → *HTML Live Demo (Coming Soon)*
+> 🌐 **Open in Browser** → (https://hyvoid.github.io/Membership-Engagement-Analytics-Workspace/)
 >
 > 📥 **Download Excel** → *GitHub Releases / Gumroad (Coming Soon)*
 
