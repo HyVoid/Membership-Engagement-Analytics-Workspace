@@ -14,22 +14,6 @@
 
 ---
 
-## Screenshots
-
-### Browser Version
-
-<!-- screenshot: browser version -->
-
-*Interactive membership engagement dashboard showing participation trends, engagement scores, churn risk, and event retention analysis.*
-
-### Excel Version
-
-<!-- screenshot: excel version -->
-
-*Operational workbook showing attendee history, event participation ledger, member scoring engine, and organizational engagement analytics.*
-
----
-
 ## What It Helps You Track
 
 * Complete lifetime participation history for every member and non-member.
