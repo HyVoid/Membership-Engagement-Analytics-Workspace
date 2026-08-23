@@ -6,7 +6,9 @@
 
 **Track lifetime participation history, identify member churn risk, discover high-potential non-members, and analyze community engagement trends — using a free browser version or a reusable Excel workbook, with no signup and no installation required.**
 
-> ## **No signup. No installation. Free.**
+**No signup. No installation. Free in your browser.**
+
+Try the browser version for free. If you need the Excel version, you can buy it with a 7-day money-back guarantee.
 >
 > 🌐 **Open in Browser** → [here](https://hyvoid.github.io/Membership-Engagement-Analytics-Workspace/)
 >
