@@ -12,7 +12,7 @@ Try the browser version for free. If you need the Excel version, you can buy it 
 >
 > 🌐 **Open in Browser** → [here](https://hyvoid.github.io/Membership-Engagement-Analytics-Workspace/)
 >
-> 📥 **Download Excel** → *GitHub Releases / Gumroad (Coming Soon)*
+> 📥 **Download Excel** → *GitHub Releases / [Website](https://www.theseusworkshop.com/) (Coming Soon)*
 
 ---
 
