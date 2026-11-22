@@ -1,0 +1,104 @@
+name: Bug report
+description: Report a reproducible technical defect in Membership Engagement Analytics Workspace. General questions and ideas
+  belong in the central Discussions forum.
+title: '[Bug] Membership Engagement Analytics Workspace'
+body:
+- type: markdown
+  attributes:
+    value: Report one reproducible technical issue per submission. Do not attach the original workbook or upload production
+      exports. A small synthetic example is usually sufficient.
+- type: dropdown
+  id: problem_area
+  attributes:
+    label: Workflow area
+    description: Choose the closest part of the tool where the issue occurs.
+    options:
+    - Contact / attendee identity matching and de-duplication
+    - Purchaser vs. actual attendee reconciliation
+    - Event catalog and attendance ledger import
+    - Lifetime participation history
+    - Member / non-member segmentation
+    - Engagement score or participation trend
+    - Member disengagement, renewal, or churn-risk indicators
+    - Non-member conversion potential
+    - Dashboard, filters, or historical reporting
+    - Excel / browser compatibility
+    - Other
+  validations:
+    required: true
+- type: dropdown
+  id: environment
+  attributes:
+    label: Where did the issue occur?
+    description: Choose the closest environment.
+    options:
+    - Browser-based tool / web demo
+    - Microsoft Excel for Microsoft 365
+    - Microsoft Excel 2021
+    - Google Sheets preview
+    - Other / not sure
+  validations:
+    required: true
+- type: input
+  id: version
+  attributes:
+    label: Version / environment details
+    description: Provide the workbook version, release or commit, browser, and Excel build if known.
+    placeholder: e.g. release tag / commit; Excel 365 build
+  validations:
+    required: false
+- type: input
+  id: summary
+  attributes:
+    label: Issue summary
+    description: A concise title describing the defect.
+    placeholder: e.g. Valid input dimensions produce an incorrect capacity
+  validations:
+    required: true
+- type: textarea
+  id: expected_actual
+  attributes:
+    label: Expected result and actual result
+    description: Describe what should happen and what happened instead. Include affected output, metric, sheet, or field when
+      relevant.
+    placeholder: 'Expected: ...
+
+      Actual: ...'
+  validations:
+    required: true
+- type: textarea
+  id: steps
+  attributes:
+    label: Steps to reproduce
+    description: Give the shortest sequence of actions that reproduces the issue, including relevant assumptions / settings.
+    placeholder: '1. Open ...
+
+      2. Enter synthetic values ...
+
+      3. Review ...'
+  validations:
+    required: true
+- type: textarea
+  id: safe_example
+  attributes:
+    label: Synthetic example (no real business data)
+    description: Use 3–5 invented contact IDs, fictional event IDs, and synthetic attendance dates / membership statuses.
+      Do not include real names, email addresses, donor records, membership IDs, or attendance exports. Do not paste personal,
+      confidential, or production data. Do not attach original exports or workbooks.
+    placeholder: 'Synthetic inputs: ...
+
+      Expected output: ...
+
+      Actual output: ...'
+  validations:
+    required: true
+- type: checkboxes
+  id: privacy_check
+  attributes:
+    label: Privacy confirmation
+    options:
+    - label: I have removed personal, confidential, and production data and have used only synthetic or adequately de-identified
+        information.
+      required: true
+  validations:
+    required: true
